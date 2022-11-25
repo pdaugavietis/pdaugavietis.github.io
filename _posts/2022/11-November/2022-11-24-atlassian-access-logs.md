@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Atlassian Baselining and Troubleshooting
+title: Java Application Baselining and Troubleshooting
 subtitle: A starting point for metrics and data
 tags: [devops, observability]
-published: false
-date: "2022-11-24"
+published: true
 ---
 
 So we all know that Atlassian apps are Java-based (they usually run on a version of Apache Tomcat) and that there are many ways to solve the "I need data, to make the data-driven decisions" about heap size and configuration, garbage collection and general performance.  This is dancing around the issue of observability, both internal and external.

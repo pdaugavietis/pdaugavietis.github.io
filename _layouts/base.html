@@ -22,14 +22,14 @@ common-googlefonts:
 
         <div class="row">
             <div class="col-3">
-                <div class="bg-dark rounded-3">
+                <div class="bg-success rounded-3">
                     <div class="container-fluid text-light">
 
                         <div class="row">
                             <!-- <h1><a href="{{ site.baseurl | append: site.url }}">{{ site.title }}</a></h1> -->
                             <div class="col p-4">
-                                <h1><a href="{{ site.baseurl | append: site.url }}">{{ site.subtitle | prepend: ' -- ' |
-                                        prepend: site.title }}</a></h1>
+                                <p><span class="blog-header"><a href="{{ site.baseurl | append: site.url }}">{{ site.title }}</a></span><br/>
+                                    <span class="blog-subheader">{{ site.subtitle }}...</span></p>
                                 <p>{{ site.description | default: site.github.project_tagline }}</p>
                             </div>
                         </div>

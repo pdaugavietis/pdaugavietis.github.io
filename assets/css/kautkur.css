@@ -12,3 +12,11 @@ h1,h2,h3,h4,h5,h6 {
 h4 {
     font-family: "Nerko One";
 }
+
+.blog-header {
+    font-family: "Nerko One";
+    font-size: 26pt;
+}
+.blog-subheader {
+    font-family: 'Patrick Hand';
+}
