@@ -1,0 +1,12 @@
+---
+layout: base
+---
+
+<h2>{{ page.title }}</h2>
+{% if page.subtitle %}
+<h4>{{ page.subtitle }}</h4>
+{% endif %}
+
+<article role="main" class="blog-post">
+    {{ content }}
+</article>
