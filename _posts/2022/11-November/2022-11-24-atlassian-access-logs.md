@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Application Baselining and Troubleshooting
+title: Java Application - Baselining and Troubleshooting - Part 1
 subtitle: A starting point for metrics and data
 tags: [devops, observability]
 published: true

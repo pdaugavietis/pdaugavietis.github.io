@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Application Baselining and Troubleshooting
+title: Java Application - Baselining and Troubleshooting - Part 2
 subtitle: Let's talk tools - Jolokia and JMX2Graphite
 tags: [devops, observability]
 published: true

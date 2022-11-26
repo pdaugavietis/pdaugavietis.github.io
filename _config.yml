@@ -57,12 +57,7 @@ markdown: kramdown
 # permalink: /:year-:month-:day-:title/
 permalink: /:title/
 
-pagination:
-  enabled: true
-  sort_reverse: true
-  per_page: 10
-  debug: true
-
+paginate: 7
 excerpt_length: 50
 
 github: [metadata]
@@ -71,15 +66,13 @@ github: [metadata]
 plugins:
   - jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list if you already have one
-  - jekyll-paginate-v2
+  - jekyll-paginate
   # - jekyll-compose
   - jekyll-archives
   - jekyll-seo-tag
   - jekyll-sitemap
   
 remote_theme: pdaugavietis/dinky-pages-theme
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # theme: minima
 # plugins:
